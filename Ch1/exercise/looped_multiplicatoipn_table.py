@@ -9,5 +9,10 @@ def multi_table(a):
 		print("{0:.3f} x {1:.3f} = {2:.3f}".format(a, i, a*i))
 
 if __name__ == "__main__":
-	a = input("Enter a number: ")
-	multi_table(float(a))
+	while True:
+		a = input("Enter a number: ")
+		multi_table(float(a))
+
+		answer = input("Would you like to exit? Type 'y' for yes: \nEnter your answer: ")
+		if answer == "y":
+			break
