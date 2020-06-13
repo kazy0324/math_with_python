@@ -24,5 +24,3 @@ if __name__ == "__main__":
 		miles_to_km()
 	else:
 		print("Do it propery!!!")
-
-print("Hey")
